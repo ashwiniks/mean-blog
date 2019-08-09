@@ -1,0 +1,5 @@
+<div *ngFor="let post of posts">
+<h4>{{post.title}}</h4>
+<h6>{{post.content}}</h6>
+<button class="btn-danger" (click)="onPostDelete(post.id)">Delete</button>
+</div>
